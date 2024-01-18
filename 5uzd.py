@@ -1,6 +1,6 @@
 def ieraksti_vardu():
     try:
-        with open('lietotajs', 'w') as faila_atslega
+        with open('lietotajs', 'w') as faila_atslega:
              faila_atslega.write(vards)
         print("Vārds veiksmīgi ierakstīts failā.")
     except:
