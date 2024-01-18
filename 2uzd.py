@@ -11,3 +11,5 @@ def lasit_cs_failu():
         print(f"CSV fails ar nosaukumu '' nav atrasts.")
     except:
         print("Kļūda nolasot CSV failu.")
+csv_faila_nosaukums = input("Ievadiet CSV faila nosaukumu: ")
+lasit_cs_failu(csv_faila_nosaukums)

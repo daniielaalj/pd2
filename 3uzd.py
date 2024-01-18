@@ -11,3 +11,5 @@ def lasit_teksta_failu():
        print(f"Teksta fails ar nosaukumu '' nav atrasts.")
     except:
        print("Kļūda nolasot teksta failu.")
+teksta_faila_nosaukums = input("Ievadiet teksta faila nosaukumu: ")
+lasit_teksta_failu(teksta_faila_nosaukums)

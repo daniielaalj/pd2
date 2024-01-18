@@ -7,3 +7,4 @@ def lasit_teksta_failu(txt):
         print(f"Teksta fails ar nosaukumu '{txt}'nav atrasts.")
     except:
         print("Kļūda nolasot teksta failu.")
+        
